@@ -1,0 +1,297 @@
+body{
+    background-color: black;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    margin-left: 20px;
+}
+.navbar-nav{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.navbar-nav a{
+    font-size: 40px;
+    margin-left: 50px;
+    color: black;
+}
+.background{
+    background-color: black;
+}
+main{
+    background-color: black;
+}
+.bg{
+    width: 100%;
+}
+.container h1{
+    color: gold;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.container p{
+    color: white;
+    font-size: 30px;
+}
+.brands{
+    width: 100%;
+}
+.card p{
+    color: black;
+}
+.card{
+    border: 5px solid gold;
+}
+#men h1 ,#women h1 , #kids h1 ,#specialoffer h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.desc{
+    padding-top: 50px;
+}
+.offer{
+    width: 500px;
+    height: 400px;
+}
+#badge{
+    font-size: 30px;
+    border: 3px solid red;
+    border-radius: 15%;
+    padding-left: 12px;
+    margin-left: 100px;
+    width: 100px;
+    color: red;
+    background-color: white;
+}
+#badge:hover{
+    background-color: red;
+    color: white;
+    transition: .7s;
+    border: 3px solid white;
+}
+.hr{
+    color: white;
+}
+#price{
+    display: flex;
+    justify-content: center;
+}
+#before{
+    font-size: 30px;
+    text-decoration: line-through;
+}
+#after{
+    padding-left: 20px ;
+    font-size: 30px;
+    color: red;
+}
+.buy{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#contact h1{
+    color: gold;
+    font-size: 30px;
+}
+#contact p{
+    font-size: 20px;
+    color: #00abf0;
+}
+#contact form input{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 10px;
+}
+#contact label{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+#contact .send{
+    width: 100px;
+    height: 50px;
+    border: 3px solid gold;
+    border-radius: 15%;
+}
+.icons{
+    padding-top: 10px;
+}
+.icons a{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid gold;
+    border-radius: 50%;
+    font-size: 20px;
+    color: gold;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+#txt{       
+    width: 315px;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 187px;
+    margin-top: 10px;
+}
+.home{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+.home:hover{
+    color: gold;
+    transition: 1s;
+}
+.ph{
+    width: 100%;
+    padding-top : 20px;
+}
+#p{
+    margin-top: 300px;
+    color: white;
+    text-align: center;
+}
+footer{ 
+    background-color: black;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gold;
+}
+@media screen and (max-width: 800px) {
+    .navbar-nav a {
+        font-size: 40px;
+    }
+    .container h1 {
+        font-size: 40px;
+    }
+    .container p {
+        font-size: 30px;
+    }
+    img {
+        max-width: 100%; 
+        height: auto; 
+    }
+    #men h1, #women h1, #kids h1, #specialoffer h1 {
+        font-size: 40px;
+    }
+    #badge {
+        font-size: 30px;
+    }
+    #contact h1 {
+        font-size: 30px;
+    }
+    #contact p {
+        font-size: 20px;
+    }
+    #contact form input {
+        width: 200px;
+        font-size: 16px;
+    }
+    #contact label {
+        font-size: 20px;
+    }
+    .icons a {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .home {
+        font-size: 30px;
+    }
+    #txt {
+        font-size: 20px;
+    }
+    #p {
+        font-size: 20px;
+        margin-top: 200px;
+    }
+    footer{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        color: gold;
+    }
+}
+@media screen and (max-width: 500px) {
+    .navbar-nav a {
+        font-size: 30px;
+    }
+    .container h1 {
+        font-size: 30px; 
+    }
+    .container p {
+        font-size: 20px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    #men h1, #women h1, #kids h1, #specialoffer h1 {
+        font-size: 40px; 
+    }
+    #badge {
+        font-size: 20px; 
+    }
+    #contact h1 {
+        font-size: 20px; 
+    }
+    #contact p {
+        font-size: 16px; 
+    }
+    #contact form input {
+        width: 200px;
+        font-size: 16px;
+    }
+    #contact label {
+        font-size: 16px;
+    }
+    .icons a {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .home {
+        font-size: 20px;
+    }
+    #txt {
+        font-size: 16px;
+    }
+    #p {
+        font-size: 16px;
+        margin-top: 200px;
+    }
+    footer{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        color: gold;
+    }
+}
+
